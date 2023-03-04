@@ -1,0 +1,46 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="user.master.cs" Inherits="user" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Train QR Ticket</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+<div id="Container">
+  <div id="header_"> &nbsp;
+    <ul class="navi">
+      <li><a href="userHome.aspx">Home </a></li>
+      <li><a href="userTicket.aspx">Ticket Booking</a></li>
+   <li><a href="userBooking.aspx">My Booking</a></li>
+      <li><a href="Home.aspx">Logout</a></li>
+      
+       </ul>
+  </div>
+  
+  
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+       <div id="footer2_">
+    <p>&nbsp;</p>
+    <p>Designed by <a href="http://www.webtemplateportal.com/">Train Qr Ticket</a><br />
+      This template is under the <a target="_blank" href="http://creativecommons.org/licenses/by/2.5/">Creative Commons Attribution 2.5</a> License.<br />
+      <br />
+      <span>Adipiscing elit sed diam nonummy nibh commodo consequat sit amets. Sorem ipsum dolor sit amet, consectetuer adipiscing.</span></p>
+    <p>&nbsp;</p>
+  
+  </div>
+  <div id="footer3_"> &nbsp;</div>
+</div>
+
+
+</body>
+</html>

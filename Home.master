@@ -1,0 +1,41 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Home.master.cs" Inherits="admin" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Train Food Track</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+<div id="Container">
+  <div id="header_"> &nbsp;
+    <ul class="navi">
+      <li><a href="Home.aspx">Home </a></li>
+      <li><a href="adminLogin.aspx">Admin</a></li>
+      <li><a href="userReg.aspx">User</a></li>
+       </ul>
+  </div>
+  
+  
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+
+     <div id="footer2_">
+    <p>&nbsp;</p>
+    <p>Designed by <a href="http://www.webtemplateportal.com/">Train Food Tracking</a><br />
+      This template is under the <a target="_blank" href="http://creativecommons.org/licenses/by/2.5/">Creative Commons Attribution 2.5</a> License.<br />
+      <br />
+     
+  </div>
+  <div id="footer3_"> &nbsp;</div>
+</div>
+</body>
+</html>
